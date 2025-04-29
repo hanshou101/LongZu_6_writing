@@ -15,6 +15,9 @@ for filename in files:
     # 文件名作为标题
     all_content.append(f'# {filename}\n\n{content}\n')
 
+# 需要先创建 summary 目录
+os.makedirs(os.path.dirname(target_file), exist_ok=True)
+
 # 合并内容并写入目标文件
 with open(target_file, 'w', encoding='utf-8') as f:
     f.write('\n\n'.join(all_content)) 

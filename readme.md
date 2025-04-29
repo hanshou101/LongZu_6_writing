@@ -33,7 +33,7 @@
 
 看，就像这样简单：
 
-![](images/img.png)
+![](./images/img.png)
 
 ---
 

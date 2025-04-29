@@ -33,7 +33,7 @@
 
 看，就像这样简单：
 
-![](./images/img.png)
+![img.png_图片无法显示_多为DNS网络问题](./images/img.png)
 
 ---
 
